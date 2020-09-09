@@ -32,7 +32,7 @@ downloadImageSource = async (uri) => {
       dest: folderPath
     })));
   } catch (e) {
-    throw new Error('Cannot generate your link...<li>Invalid URL</li><li>Timeout: check your connection</li>')
+    throw new Error('Cannot generate your link...<li>Invalid URL</li><li>Timeout: check your connection</li><li>Request to server get blocked</li>')
   }
 }
 
